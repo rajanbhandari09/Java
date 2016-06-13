@@ -73,6 +73,10 @@ private static Node deleteNodeAtPosition(Node head2, int nextInt) {
 		}
 		
 		else{
+			
+			
+			
+			
 			Node temp1 = head2;
 			Node temp2 = head2;
 			for(int i=0;i<nextInt;i++){
