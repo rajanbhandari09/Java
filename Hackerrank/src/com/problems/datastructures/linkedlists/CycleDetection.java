@@ -7,7 +7,38 @@ package com.problems.datastructures.linkedlists;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
+
 public class CycleDetection {
+	
+	//fast & slow pointers approach code
+	/*boolean hasCycle(Node head) {
+	if(head==null)
+	    return false;
+	    else if(head.next==null)
+	        return false;
+	    else{
+	        Node current = head;
+	        Node runner = head;
+	        while(runner.next != null){
+	            current = current.next;
+	            runner = runner.next.next;
+	            if(current==runner)
+	                return true;
+	            else if(runner == null)
+	                break;
+	            
+	            
+	        }
+	        
+	        
+	        return false;
+	        
+	    }
+	    
+	    
+	}*/
 	boolean hasCycle(Node head) {
 	    if(head == null)
 	        return false;

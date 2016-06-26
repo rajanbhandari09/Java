@@ -25,7 +25,27 @@ public class ReverseLinkedList {
 		}
 		
 	}
-	
+	//Recursive Implementation
+	/*Node Reverse(Node head) {
+	    Node temp = head;
+	    
+	    if(head.next==null){
+	        return head;
+	    }
+	else if(head.next.next==null){
+	    temp = head.next;
+	    head.next.next = head;
+	    head.next = null;
+	    return temp;
+	}
+	    else {
+	   head = Reverse(temp.next);
+	    temp.next.next = temp;
+	        temp.next = null;
+	    return head;
+	    }
+	    
+	}*/
 	//Stack Implementation
 	private static Node Reverse(Node head2) {
 		Node temp = head2;
