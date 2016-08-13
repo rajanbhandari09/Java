@@ -1,3 +1,5 @@
+package com.problems.datastructures.queues;
+
 /*Notes:
 This problem implements Java PriorityQueue class which orders elements in their natural order.
 */

@@ -1,3 +1,5 @@
+package com.problems.datastructures.trees;
+import java.util.*;
 /*Notes:
 1. BFS traversal or Level order traversal is an algorithm that processes the root, followed by childen of root (from left to right), 
 followed by grandchildren of root (from left to right)
@@ -20,5 +22,5 @@ public class BFStraversal{
 
 		}
 
-
+	}
 	}

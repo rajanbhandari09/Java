@@ -1,3 +1,7 @@
+package com.problems.algorithms;
+
+import java.util.Scanner;
+
 public class MaximizingXOR{
 
 static int maxXor(int l, int r) {

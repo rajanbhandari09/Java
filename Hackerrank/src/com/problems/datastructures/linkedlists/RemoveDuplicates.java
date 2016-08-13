@@ -1,3 +1,9 @@
+package com.problems.datastructures.linkedlists;
+
+import java.util.HashSet;
+import java.util.Set;
+
+
 public class RemoveDuplicates{
 
 	public static Node removeDuplicates(Node head) {

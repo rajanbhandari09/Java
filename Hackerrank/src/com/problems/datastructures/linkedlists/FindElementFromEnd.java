@@ -1,7 +1,6 @@
-class Node {
-     int data;
-     Node next;
-  }
+package com.problems.datastructures.linkedlists;
+
+
 
 
 class FindElementFromEnd {    

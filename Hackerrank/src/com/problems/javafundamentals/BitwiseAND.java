@@ -1,3 +1,7 @@
+package com.problems.javafundamentals;
+
+import java.util.Scanner;
+
 /*Bitwise AND operator*/
 
 public class BitwiseAND{

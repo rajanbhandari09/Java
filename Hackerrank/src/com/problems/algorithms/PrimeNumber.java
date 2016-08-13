@@ -1,3 +1,7 @@
+package com.problems.algorithms;
+
+import java.util.Scanner;
+
 /*Notes:
 1. 1 is neither prime nor composite number.
 2. Below is a solution for calculating square root of a number with O(sqrt(n)) time complexity.

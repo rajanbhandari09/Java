@@ -1,3 +1,5 @@
+package com.problems.datastructures.trees;
+
 /* Notes:
 Height of a binary tree = 1+ Maximum(Height of left subtree, Height of right subtree)
 Height of an empty subtree = -1
