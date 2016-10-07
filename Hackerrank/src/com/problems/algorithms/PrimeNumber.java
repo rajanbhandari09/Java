@@ -20,8 +20,30 @@ public class PrimeNumber {
 
 		}
 	}
-
-	public static void checkPrime(int input){
+public static void checkPrime(int number){
+        
+        boolean flag = true;
+            if(number>=2){
+            	if(number==2)
+                    System.out.println("Prime");
+            	else if(number%2!=0){
+            		for(int j=2;j*j<=number;j++){
+            			if(number%j==0){
+                            System.out.println("Not prime");
+                            flag = false;
+                            break;
+                            }
+            			}
+            		if(flag)
+                    System.out.println("Prime");
+            		}
+            	else
+                    System.out.println("Not prime");
+            	}
+            else
+                    System.out.println("Not prime");
+            }
+	/*public static void checkPrime(int input){
 		if(input==1)
 			System.out.println("Not prime");
 		else{
@@ -37,7 +59,7 @@ public class PrimeNumber {
 			System.out.println("Prime");
 		}    
 
-	}
+	}*/
 
 
 

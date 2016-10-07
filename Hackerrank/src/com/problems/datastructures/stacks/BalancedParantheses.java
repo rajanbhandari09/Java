@@ -1,6 +1,8 @@
 package com.problems.datastructures.stacks;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
@@ -14,8 +16,60 @@ import java.util.Stack;
  */
 
 public class BalancedParantheses {
-
 	public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int t = in.nextInt();
+        for(int a0 = 0; a0 < t; a0++) {
+            String expression = in.next();
+            boolean answer = isBalanced(expression);
+            if(answer)
+                System.out.println("YES");
+            else System.out.println("NO");
+        }
+    }
+    
+    public static boolean isBalanced(String input){
+        if(input.length()%2!=0)
+            return false;
+        
+        else{
+            Deque<Character> s = new ArrayDeque<>();
+            
+            for(int i=0;i<input.length();i++){
+                
+                if(input.charAt(i)=='('||input.charAt(i)=='{'||input.charAt(i)=='[')
+                    s.push(input.charAt(i));
+                
+                else if(input.charAt(i)==')'||input.charAt(i)=='}'||input.charAt(i)==']')
+                    {
+                    
+                    if(s.isEmpty())
+                    return false;
+                    
+                    else{
+                        if(input.charAt(i)==')'&&s.peek()!='('||input.charAt(i)=='}'&&s.peek()!='{'||input.charAt(i)==']'&&s.peek()!='[')
+                            return false;
+                        else
+                            s.pop();
+                        }
+                    
+                    
+                    }
+                }
+            
+            if(s.isEmpty())
+                return true;
+            else
+                return false;
+            
+        }
+        
+        
+        
+        
+        
+    }
+	/*public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
 		int numberofstrings = sc.nextInt();
@@ -82,6 +136,6 @@ public class BalancedParantheses {
 		else
 			System.out.println("NO");
 
-	}
+	}*/
 	
 }
