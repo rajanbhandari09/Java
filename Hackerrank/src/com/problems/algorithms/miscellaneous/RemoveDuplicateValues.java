@@ -1,4 +1,4 @@
-package com.problems.tests;
+package com.problems.algorithms.miscellaneous;
 
 import java.util.Arrays;
 import java.util.Scanner;

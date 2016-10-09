@@ -1,4 +1,4 @@
-package com.problems.objectorientedprogramming;
+package com.problems.javafundamentals;
 
 class Arithmetic{
     

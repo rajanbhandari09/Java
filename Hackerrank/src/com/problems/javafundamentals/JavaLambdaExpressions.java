@@ -1,3 +1,4 @@
+package com.problems.javafundamentals;
 /*Notes:
 Hacerrank Problem - Java Lambda Expressions
 */

@@ -1,4 +1,4 @@
-package com.problems.tests;
+package com.problems.algorithms.strings;
 import java.lang.reflect.Array;
 import java.util.*;
 import java.util.regex.Pattern;
@@ -6,9 +6,7 @@ import java.util.regex.Pattern;
 
 
 
-/**
- * This is <b>Main class</b> of Olives application
- */
+
 public class StringCommonLetters {
 
 	public static void main(String[] args) {
