@@ -1,4 +1,4 @@
-package com.problems.javafundamentals;
+package com.problems.javafundamentals.collections;
 
 import java.io.*;
 import java.util.*;

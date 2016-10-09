@@ -6,6 +6,15 @@ Height of an empty subtree = -1
 */
 
 public class BinaryTreeHeight{
+	class Node{
+		Node left;
+		Node right;
+		int data;
+		
+		
+	}
+	
+	
 	
 	public static int getHeight(Node root){
 

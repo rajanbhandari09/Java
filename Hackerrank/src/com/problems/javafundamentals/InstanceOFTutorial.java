@@ -3,13 +3,15 @@ package com.problems.javafundamentals;
 import java.util.*;
 
 
-class Student{}
-class Rockstar{   }
-class Hacker{}
+
 
 
 public class InstanceOFTutorial
 {
+	
+	static class Student{}
+	static class Rockstar{   }
+	static class Hacker{}
    static String count(ArrayList mylist)
    {
       int a=0,b=0,c=0;
@@ -29,7 +31,7 @@ public class InstanceOFTutorial
 
    public static void main(String []argh)
    {
-      ArrayList mylist=new ArrayList();
+      ArrayList<Object> mylist=new ArrayList();
       Scanner sc=new Scanner(System.in);
       int t=sc.nextInt();
       for(int i=0;i<t;i++)

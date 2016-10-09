@@ -1,20 +1,18 @@
-package com.problems.javafundamentals;
-/*Notes:
-Hacerrank Problem - Java Lambda Expressions
-*/
+package com.problems.javafundamentals.java8;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
-//Locked Stub Code in Hackerrank
-/*import java.io.*;
-import java.util.*;
-interface PerformOperation {
- boolean check(int a);
+interface PerformOperation{
+	public boolean test( int n);
+	
+	
+	
 }
-class MyMath {
- public static boolean checker(PerformOperation p, int num) {
-  return p.check(num);
- }*/
 
+class MyMath {
 public PerformOperation is_odd(){
     
     return a -> a%2!=0;
@@ -42,10 +40,17 @@ return a -> {
 };
     
 }
+
+public boolean checker(PerformOperation p, int n){
+	
+	return p.test(n);
+	
+	
 }
 
-//Locked Stub Code in Hackerrank
-/*public class Solution {
+}
+
+public class JavaLambdaExpressions {
 
  public static void main(String[] args) throws IOException {
   MyMath ob = new MyMath();
@@ -76,4 +81,4 @@ return a -> {
    System.out.println(ans);
   }
  }
-}*/
+}

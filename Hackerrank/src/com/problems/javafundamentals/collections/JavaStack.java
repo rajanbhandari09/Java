@@ -3,7 +3,7 @@
  * Solution mentioned here is without using stacks. Refer datastructures.stacks package for Stack solution
  */
 
-package com.problems.javafundamentals;
+package com.problems.javafundamentals.collections;
 
 import java.util.*;
 class JavaStack{

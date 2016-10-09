@@ -6,9 +6,22 @@ followed by grandchildren of root (from left to right)
 2. Implementation requires use of queue
 */
 
+import com.problems.datastructures.trees.BinaryTreeHeight.Node;
+
 public class BFStraversal{
+	
+	class Node{
+		Node left;
+		Node right;
+		int data;
+		
+		
+	}
+	
+	
+	
 	public static void levelOrder(Node N){
-		Node temp = root;
+		Node temp = N;
 		Queue<Node> q = new LinkedList<Node>();
 		q.add(temp);
 		while(!q.isEmpty()){
