@@ -1,4 +1,4 @@
-package com.problems.algorithms;
+package com.problems.algorithms.miscellaneous;
 
 import java.util.Scanner;
 
