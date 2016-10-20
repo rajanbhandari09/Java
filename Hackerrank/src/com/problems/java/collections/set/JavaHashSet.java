@@ -3,7 +3,7 @@
  */
 
 
-package com.problems.javafundamentals.collections;
+package com.problems.java.collections.set;
 import java.io.*;
 import java.util.*;
 import java.text.*;

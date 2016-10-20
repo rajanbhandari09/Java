@@ -1,4 +1,4 @@
-package com.problems.datastructures.stacks;
+package com.problems.java.collections.stacks;
 
 import java.io.*;
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.problems.datastructures.queues;
+package com.problems.java.collections.queues;
 
 /*Notes:
 This problem implements Java PriorityQueue class which orders elements in their natural order.

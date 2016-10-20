@@ -1,4 +1,4 @@
-package com.problems.javafundamentals.collections;
+package com.problems.java.collections.queues;
 
 import java.util.*;
 public class JavaDequeue {
