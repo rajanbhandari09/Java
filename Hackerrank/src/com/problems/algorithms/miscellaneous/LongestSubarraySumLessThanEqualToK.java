@@ -16,7 +16,7 @@ public class LongestSubarraySumLessThanEqualToK {
 		System.out.println("Enter number k");
 		int k = sc.nextInt();
 		System.out.println(LongestSubarray(numbers,k));
-		
+		sc.close();
 	}
 
 	private static int LongestSubarray(int[] numbers, int k) {
@@ -52,6 +52,7 @@ public class LongestSubarraySumLessThanEqualToK {
 		}
 		
 		return maxSubArrayLength;
+		
 	}
 	
 }
