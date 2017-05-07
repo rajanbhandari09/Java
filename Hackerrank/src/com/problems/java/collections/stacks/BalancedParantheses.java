@@ -33,31 +33,31 @@ public class BalancedParantheses {
             return false;
         
         else{
-            Deque<Character> s = new ArrayDeque<>();
+            Deque<Character> stackHoldingOpeningParentheses = new ArrayDeque<>();
             
             for(int i=0;i<input.length();i++){
                 
                 if(input.charAt(i)=='('||input.charAt(i)=='{'||input.charAt(i)=='[')
-                    s.push(input.charAt(i));
+                    stackHoldingOpeningParentheses.push(input.charAt(i));
                 
                 else if(input.charAt(i)==')'||input.charAt(i)=='}'||input.charAt(i)==']')
                     {
                     
-                    if(s.isEmpty())
+                    if(stackHoldingOpeningParentheses.isEmpty())
                     return false;
                     
                     else{
-                        if(input.charAt(i)==')'&&s.peek()!='('||input.charAt(i)=='}'&&s.peek()!='{'||input.charAt(i)==']'&&s.peek()!='[')
+                        if(input.charAt(i)==')'&&stackHoldingOpeningParentheses.peek()!='('||input.charAt(i)=='}'&&stackHoldingOpeningParentheses.peek()!='{'||input.charAt(i)==']'&&stackHoldingOpeningParentheses.peek()!='[')
                             return false;
                         else
-                            s.pop();
+                            stackHoldingOpeningParentheses.pop();
                         }
                     
                     
                     }
                 }
             
-            if(s.isEmpty())
+            if(stackHoldingOpeningParentheses.isEmpty())
                 return true;
             else
                 return false;
