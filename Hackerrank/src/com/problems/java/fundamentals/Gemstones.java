@@ -1,4 +1,4 @@
-package com.problems.javafundamentals;
+package com.problems.java.fundamentals;
 
 import java.util.ArrayList;
 import java.util.HashSet;

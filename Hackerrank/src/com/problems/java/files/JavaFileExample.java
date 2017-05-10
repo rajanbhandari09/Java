@@ -1,4 +1,4 @@
-package com.problems.javafundamentals.files;
+package com.problems.java.files;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

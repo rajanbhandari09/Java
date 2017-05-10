@@ -1,4 +1,4 @@
-package com.problems.javafundamentals.java8;
+package com.problems.java.java8;
 
 import java.io.BufferedReader;
 import java.io.IOException;

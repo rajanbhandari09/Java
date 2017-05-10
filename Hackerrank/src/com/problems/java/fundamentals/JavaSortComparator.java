@@ -1,4 +1,4 @@
-package com.problems.javafundamentals;
+package com.problems.java.fundamentals;
 
 import java.util.*;
 
