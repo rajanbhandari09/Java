@@ -1,2 +1,4 @@
 # Java
-This Java repository contains solved Hackerrank challenges & Leetcode problems related to data structures, algorithms and programming language including Java 8.
+This Java repository contains solved datastrucutre, algorithm and programming language problems (including Java 8).
+##Problems:##
+
