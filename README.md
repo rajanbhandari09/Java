@@ -1,5 +1,5 @@
 # Java
-This Java repository contains solved datastrucutre, algorithm and programming language problems (including Java 8).
+This Java repository contains solved datastrucutre, algorithm and programming language problems.
 ### Problems:
 * [Algorithms](https://github.com/rajanbhandari09/Java/tree/master/Problems/src/com/problems/algorithms)
 * [Data Structures](https://github.com/rajanbhandari09/Java/tree/master/Problems/src/com/problems/collections)
