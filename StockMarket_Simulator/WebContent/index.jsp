@@ -35,7 +35,7 @@ bootstrap/3.3.5/css/bootstrap.min.css">
 <div class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
       
-      <a class="navbar-brand" href="index.jsp">Stock Market Simulator</a>
+      <a class="navbar-brand" href="index.jsp">Stock Market Trading Simulator</a>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.jsp"><span class="glyphicon glyphicon-home"></span> Home</a></li>
         <li><a href="register.jsp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -52,7 +52,7 @@ bootstrap/3.3.5/css/bootstrap.min.css">
 <div class="jumbotron text-center">
     <div class="container">
       <div class="row">     
-          <h1>Stock Market Simulator</h1>
+          <h1>Stock Market Trading Simulator</h1>
           <p>A Stepping Stone to the Real Markets</p>
       </div>
     </div> 

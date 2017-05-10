@@ -10,17 +10,11 @@ public class IsBinarySearchTree {
 
 public static Node prevNode =null;
     boolean checkBST(Node root) {
-        
-        
+                
         boolean flag = true;
         return preOrderTraversal(root,flag);
         
-        
-        
-        
-        
-        
-    }
+   }
 
 public static boolean preOrderTraversal(Node node, boolean flag){
     
